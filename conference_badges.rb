@@ -23,3 +23,5 @@ end
 def printer(attendees)
   puts badge_maker(attendees.first)
 end 
+
+printer('Cara')
