@@ -7,3 +7,6 @@ def batch_badge_creator(array)
   end 
   new_arr
 end 
+
+def badge_maker(name)
+end 
