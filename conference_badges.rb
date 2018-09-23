@@ -22,6 +22,7 @@ end
 
 def printer(attendees)
   # puts badge_maker(attendees.first)
+  puts batch_badge_creator(attendees).each_with_index
 end 
 
 
