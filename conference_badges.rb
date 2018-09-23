@@ -21,10 +21,8 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  # puts badge_maker(attendees.first)
   print_arr = batch_badge_creator(attendees).concat(assign_rooms(attendees))
   print_arr.each { |ele| puts ele }
-  
 end 
 
 
