@@ -13,6 +13,7 @@ def badge_maker(name)
 end 
 
 def assign_rooms(attendees)
+  room_nums = []
   attendees.each do |name|
   end 
 end 
