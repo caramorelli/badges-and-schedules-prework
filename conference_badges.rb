@@ -24,4 +24,4 @@ def printer(attendees)
   puts badge_maker(attendees.first)
 end 
 
-printer('Cara')
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
