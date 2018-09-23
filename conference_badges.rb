@@ -13,6 +13,8 @@ def badge_maker(name)
 end 
 
 def assign_rooms(attendees)
+  attendees.each do |name|
+  end 
 end 
 
 def printer(attendees)
